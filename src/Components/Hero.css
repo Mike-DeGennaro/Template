@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.title {
+  padding: 0;
+  margin: 0 auto;
+  background: lighten(brown, 5%);
+  color: skyblue;
+  font-family: 'Lobster';
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  transform: rotate(-7.5deg);
+  font-size: 110px;
+  position: relative;
+  top: 8%;
+  width: 800px;
+  text-align: center;
+}
+
+.hero-container {
+  height: 100vh;
+  background-image: url('burger2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 828px) {
+  .title {
+    font-size: 72px;
+    text-align: center;
+    width: 68%;
+  }
+}

@@ -1,0 +1,136 @@
+.selection {
+  margin: auto;
+  width: 500px;
+  padding: 40px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+.menu-btn {
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+
+  width: 80px;
+  margin: 10px;
+  background-color: transparent;
+  border: 0px;
+  justify-content: center;
+  height: 40px;
+  width: 120px;
+  transition: 200ms ease-in;
+  outline: none;
+}
+.menu-btn:target {
+  background-color: skyblue;
+}
+.menu-btn:hover {
+  background-color: skyblue;
+  color: white;
+}
+.list-container {
+  text-align: center;
+  margin: auto;
+  width: 550px;
+  border-radius: 10px;
+  background-color: skyblue;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}
+.action-btn {
+  margin-bottom: 30px;
+  position: relative;
+  top: 10px;
+  padding: 20px 25px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 40px 5px 5px 40px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+  outline: none;
+}
+#other-btn {
+  border-radius: 5px 40px 40px 5px;
+}
+
+.action-btn:hover {
+  transform: translateY(5px);
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  color: white;
+}
+hr {
+  border-top: 3px solid skyblue;
+  width: 50%;
+  margin: auto;
+}
+.popup {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.order-btn {
+  outline: none;
+  transition: 0.3s ease;
+  border-radius: 20px;
+  width: 160px;
+  height: 40px;
+  color: #242424;
+  background-color: white;
+  border: 2px solid skyblue;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.order-btn:hover {
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  color: white;
+}
+.sidecart {
+  border-radius: 40px;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.yourOrder {
+  background-color: skyblue;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.oreo {
+  border: 3px skyblue solid;
+}
+.first {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  line-height: 40px;
+}
+.info2 {
+  border-radius: 10px;
+  outline: none;
+  height: 25px;
+  border: 2px solid skyblue;
+  text-align: center;
+}
+.request {
+  outline: none;
+  border: 2px solid skyblue;
+  border-radius: 10px;
+}
+#label {
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 40px;
+}
+@media screen and (max-width: 610px) {
+  .list-container {
+    width: 400px;
+  }
+  .selection {
+    width: 400px;
+  }
+}

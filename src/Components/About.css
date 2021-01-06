@@ -1,0 +1,38 @@
+.about {
+  border-top: 10px solid skyblue;
+  border-bottom: 10px solid skyblue;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+.who {
+  background-color: skyblue;
+  width: 190px;
+  margin: auto;
+  height: 40px;
+  font-size: larger;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+.burgers {
+  font-size: 50px;
+  font-weight: 900;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+.para {
+  width: 50%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.picture {
+  height: 600px;
+
+  background-image: url('burger1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,49 @@
+.sect-container {
+  height: 100vh;
+  background-image: url('burger3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: auto;
+}
+.button {
+  outline: none;
+  position: relative;
+  bottom: 70px;
+  width: 400px;
+  height: 120px;
+  border: 10px solid white;
+  color: white;
+  font-size: 4rem;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: 900;
+  font-size: 25px;
+  margin: 20px;
+}
+.btn-box {
+  position: relative;
+  top: 60%;
+  margin: auto;
+  text-align: center;
+}
+@media screen and (max-width: 960px) {
+  .btn-box {
+    top: 30%;
+  }
+}
+.button:hover {
+  animation: buttonhover 2s infinite ease-in-out;
+}
+@keyframes buttonhover {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

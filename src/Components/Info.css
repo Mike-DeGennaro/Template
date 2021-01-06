@@ -1,0 +1,55 @@
+.info {
+  border-top: 10px solid skyblue;
+  border-bottom: 10px solid skyblue;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  color: white;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  position: relative;
+  height: 540px;
+}
+.visit {
+  background-color: skyblue;
+  width: 190px;
+  margin: auto;
+  height: 40px;
+  font-size: larger;
+  font-weight: bolder;
+
+  text-align: center;
+}
+.mike {
+  text-align: center;
+  font-size: 60px;
+  margin: 10px;
+}
+.map {
+  position: relative;
+  left: 180px;
+}
+.description {
+  width: 50%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  font-size: 18px;
+  position: absolute;
+  bottom: 125px;
+  left: 340px;
+}
+
+@media screen and (max-width: 1190px) {
+  .map {
+    background-color: red;
+    left: 0;
+    bottom: 0;
+  }
+  .description {
+    position: relative;
+    left: 0;
+    text-align: center;
+    top: 10px;
+  }
+  .info {
+    height: 100%;
+  }
+}
